@@ -1,0 +1,15 @@
+.App {
+  padding: 25px 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+dt {
+  float: left;
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}

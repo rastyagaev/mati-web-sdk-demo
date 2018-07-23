@@ -1,0 +1,46 @@
+.mati-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  padding: 25px 50px;
+  background: black;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.mati-modal header {
+  font-size: 200%;
+  margin-bottom: 2rem;
+}
+
+.mati-modal video {
+  transform: scaleX(-1);
+}
+
+.mati-modal img,
+.mati-modal video {
+  max-width: 800px;
+  max-height: 400px;
+  margin-bottom: 2rem;
+}
+
+.mati-modal button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  color: inherit;
+  font: inherit;
+  background: transparent;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+}
